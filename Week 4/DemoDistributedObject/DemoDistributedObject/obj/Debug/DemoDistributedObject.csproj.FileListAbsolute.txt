@@ -1,0 +1,5 @@
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoDistributedObject\DemoDistributedObject\bin\Debug\DemoDistributedObject.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoDistributedObject\DemoDistributedObject\bin\Debug\DemoDistributedObject.pdb
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoDistributedObject\DemoDistributedObject\obj\Debug\DemoDistributedObject.csprojResolveAssemblyReference.cache
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoDistributedObject\DemoDistributedObject\obj\Debug\DemoDistributedObject.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoDistributedObject\DemoDistributedObject\obj\Debug\DemoDistributedObject.pdb
