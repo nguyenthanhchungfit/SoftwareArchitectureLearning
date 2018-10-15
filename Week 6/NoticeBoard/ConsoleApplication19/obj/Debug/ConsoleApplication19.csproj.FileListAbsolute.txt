@@ -1,0 +1,5 @@
+c:\users\tmtri\documents\visual studio 2015\Projects\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.csprojResolveAssemblyReference.cache
+c:\users\tmtri\documents\visual studio 2015\Projects\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.pdb
+c:\users\tmtri\documents\visual studio 2015\Projects\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.pdb
