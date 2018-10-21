@@ -5,6 +5,11 @@
  */
 package gamer;
 
+import java.util.ArrayList;
+import java.util.List;
+import notificationpusher.PushNotificationServer;
+import server.Newsfeed;
+
 /**
  *
  * @author chungnt
@@ -13,14 +18,17 @@ public class Gamer {
     private String name;
     private int age;
     private String nickName;
+    private List<String> gameNames;
 
     public Gamer() {
+        gameNames = new ArrayList<>();
     }
 
-    public Gamer(String name, int age, String nickName) {
+    public Gamer(String name, int age, String nickName, List<String> gameNames) {
         this.name = name;
         this.age = age;
         this.nickName = nickName;
+        this.gameNames = gameNames;
     }
 
     public String getName() {
@@ -46,5 +54,21 @@ public class Gamer {
     public void setNickName(String nickName) {
         this.nickName = nickName;
     }
+
+    public List<String> getGameNames() {
+        return gameNames;
+    }
+
+    public void setGameNames(List<String> gameNames) {
+        this.gameNames = gameNames;
+    }
     
+    public void subcribe(PushNotificationServer pushGameServer){
+        pushGameServer.subcribe(this);
+    }
+    
+    public void notify(Newsfeed newsfeed){
+        String notify = String.format("Notify to %s\n%s", this.nickName, newsfeed);
+        System.out.println(notify);
+    }
 }

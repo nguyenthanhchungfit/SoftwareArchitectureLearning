@@ -5,6 +5,8 @@
  */
 package server;
 
+import notificationpusher.PushNotificationServer;
+
 /**
  *
  * @author chungnt
@@ -26,5 +28,8 @@ public class GameServer {
     public void setName(String name) {
         this.name = name;
     }
-
+    
+    public void postNewsfeed(PushNotificationServer notice, Newsfeed news){
+        notice.postNewsfeed(this, news);
+    }
 }

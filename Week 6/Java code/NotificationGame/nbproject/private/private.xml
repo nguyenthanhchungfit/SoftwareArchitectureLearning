@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/D/year%204/KTPM/Deadlines/Week%206/Java%20code/NotificationGame/src/server/Newsfeed.java</file>
-            <file>file:/D:/D/year%204/KTPM/Deadlines/Week%206/Java%20code/NotificationGame/src/gamer/Gamer.java</file>
-            <file>file:/D:/D/year%204/KTPM/Deadlines/Week%206/Java%20code/NotificationGame/src/server/GameServer.java</file>
-            <file>file:/D:/D/year%204/KTPM/Deadlines/Week%206/Java%20code/NotificationGame/src/notificationpusher/PushNotificationServer.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/helpers/ContentCompatibilityChecker.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/helpers/KeywordsMatcher.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/app/App.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/gamer/Gamer.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/server/GameServer.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/notificationpusher/PushNotificationServer.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Week%206/Java%20code/NotificationGame/src/server/Newsfeed.java</file>
         </group>
     </open-files>
 </project-private>
