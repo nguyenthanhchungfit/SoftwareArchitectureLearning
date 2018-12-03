@@ -19,7 +19,7 @@ import server_user.DBCustomerModel;
 
 /**
  *
- * @author cpu11165-local
+ * @author chungnt
  */
 public class UserServicesImpl implements UserServices.Iface{
 

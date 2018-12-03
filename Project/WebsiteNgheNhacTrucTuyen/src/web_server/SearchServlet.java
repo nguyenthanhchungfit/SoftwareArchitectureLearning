@@ -7,8 +7,6 @@ package web_server;
 
 import Helpers.FormatJson;
 import Helpers.FormatPureString;
-import com.vng.zing.stats.Profiler;
-import com.vng.zing.stats.ThreadProfiler;
 import contracts.DataServerContract;
 import contracts.MP3ServerContract;
 import contracts.UserServerContract;
@@ -65,9 +63,6 @@ public class SearchServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        ThreadProfiler profiler = Profiler.createThreadProfilerInHttpProc(MP3ServerContract.SEARCH_SERVLET, req);
-        profiler.push(this.getClass(), "out");
         Split split = stopwatch.start();
         String messageLog = "";
 
@@ -84,8 +79,6 @@ public class SearchServlet extends HttpServlet {
                     messageForLog + "name=null");
             logger.warn(messageLog);
             out.println("<h2>Empty Name Search</h2>");
-            profiler.pop(this.getClass(), "output");
-            Profiler.closeThreadProfiler();
             return;
         }
 
@@ -131,8 +124,6 @@ public class SearchServlet extends HttpServlet {
                 logger.error(messageLog);
                 e.printStackTrace();
             } finally {
-                profiler.pop(this.getClass(), "output");
-                Profiler.closeThreadProfiler();
             }
         } else {
             // Nận dữ liệu từ thrift server 
@@ -203,8 +194,6 @@ public class SearchServlet extends HttpServlet {
                 e.printStackTrace();
 
             } finally {
-                profiler.pop(this.getClass(), "output");
-                Profiler.closeThreadProfiler();
             }
         }
 

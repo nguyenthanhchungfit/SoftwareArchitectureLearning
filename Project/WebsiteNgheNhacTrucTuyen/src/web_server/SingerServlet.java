@@ -7,8 +7,6 @@ package web_server;
 
 import Helpers.FormatPureString;
 import cache_data.DataCacher;
-import com.vng.zing.stats.Profiler;
-import com.vng.zing.stats.ThreadProfiler;
 import contracts.DataServerContract;
 import contracts.MP3ServerContract;
 import contracts.UserServerContract;
@@ -71,7 +69,6 @@ public class SingerServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ThreadProfiler profiler = Profiler.createThreadProfilerInHttpProc(MP3ServerContract.SINGER_SERVLET, req);
         Split split = stopwatch.start();
         
         resp.setStatus(HttpServletResponse.SC_OK);
@@ -84,7 +81,6 @@ public class SingerServlet extends HttpServlet {
         
         String messageLog = "";
         
-        profiler.push(this.getClass(), "output");
         TemplateLoader templateLoader = TemplateResourceLoader.create("public/hapax/");
         try{
             Template template = templateLoader.getTemplate("singer.xtm"); 
@@ -150,8 +146,6 @@ public class SingerServlet extends HttpServlet {
             
             e.printStackTrace();
         }finally{
-            profiler.pop(this.getClass(), "output");
-            Profiler.closeThreadProfiler();
         }
     }
 

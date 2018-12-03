@@ -36,7 +36,7 @@ import thrift_services.UserServices;
 
 /**
  *
- * @author cpu11165-local
+ * @author chungnt
  */
 public class LoginServlet extends HttpServlet {
 
