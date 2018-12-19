@@ -18,17 +18,17 @@ import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.util.resource.Resource;
-import web_server.AdminServlet;
-import web_server.HomeServlet;
-import web_server.LoginServlet;
-import web_server.LogoutServlet;
-import web_server.LyricsServlet;
-import web_server.SearchServlet;
+import hserver.servlets.AdminServlet;
+import hserver.servlets.HomeServlet;
+import hserver.servlets.LoginServlet;
+import hserver.servlets.LogoutServlet;
+import hserver.servlets.LyricsServlet;
+import hserver.servlets.SearchServlet;
 import web_server.ServerMP3;
-import web_server.SignupServlet;
-import web_server.SingerServlet;
-import web_server.SongServlet;
-import web_server.StatisticServlet;
+import hserver.servlets.SignupServlet;
+import hserver.servlets.SingerServlet;
+import hserver.servlets.SongServlet;
+import hserver.servlets.StatisticServlet;
 
 /**
  *
@@ -37,8 +37,7 @@ import web_server.StatisticServlet;
 public class MP3Server {
     public boolean setupAndStart() throws FileNotFoundException, URISyntaxException{
         WebServers servers = new WebServers("appmp3");
-        
-        
+           
         HandlerList handlers = new HandlerList();
         ServletContextHandler contextResource = new ServletContextHandler();
         contextResource.setContextPath("/static");

@@ -3,14 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/web_server/SingerServlet.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/web_server/SongServlet.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/thrift_services/AlbumServices.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/thrift_services/UserServicesImpl.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/thrift_services/AlbumServicesImpl.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/web_server/SearchServlet.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/thrift_services/UserServices.java</file>
-            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/web_server/LyricsServlet.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/src/elastic_search_engine/ESESong.java</file>
         </group>
     </open-files>
 </project-private>

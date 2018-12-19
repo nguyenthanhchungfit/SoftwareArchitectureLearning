@@ -2,3 +2,12 @@
 *.zip
 *.rar
 /Week 6/Java code/NotificationGame/build/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3ThriftServer/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/CrawlerWorker/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3ElasticSearch/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3Monitor/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3IdentifierSystem/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3UtilsLibs/nbproject/private/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3UtilsLibs/build/
+/Project/WebsiteNgheNhacTrucTuyenV2/Mp3UtilsLibs/dist/
