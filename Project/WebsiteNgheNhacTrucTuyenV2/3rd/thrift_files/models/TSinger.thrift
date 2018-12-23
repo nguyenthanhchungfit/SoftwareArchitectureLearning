@@ -16,7 +16,7 @@ struct TSinger{
 }
 
 struct TSingerResult{
-	1: required i16 result = -1,
+	1: required i16 error = 0,
 	2: optional TSinger singer
 }
 

@@ -9,6 +9,6 @@ struct TAlbum{
 }
 
 struct TAlbumResult{
-	1: required i16 error = -1,
+	1: required i16 error = 0,
 	2: optional TAlbum album
 }

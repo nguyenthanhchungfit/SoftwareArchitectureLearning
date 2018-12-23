@@ -9,6 +9,6 @@ struct TUser{
 }
 
 struct TUserResult{
-	1: required i16 error = -1,
+	1: required i16 error = 0,
 	2: optional TUser user
 }

@@ -6,6 +6,6 @@ struct TElasticSong{
 }
 
 struct TElasticSongResult{
-    1: required i16 error = -1,
+    1: required i16 error = 0,
     2: optional TElasticSong eSong
 }

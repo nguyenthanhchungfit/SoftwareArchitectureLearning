@@ -5,10 +5,12 @@
  */
 package mp3.me.servlets;
 
+import javax.servlet.http.HttpServlet;
+
 /**
  *
  * @author chungnt
  */
-public class SongServlet {
+public class SongServlet extends HttpServlet{
     
 }

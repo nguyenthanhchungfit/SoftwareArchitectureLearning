@@ -13,7 +13,7 @@ import com.mongodb.client.MongoDatabase;
 import java.util.ArrayList;
 import java.util.List;
 import mp3.me.databases.IAlbumDB;
-import mp3.me.databases.contracts.DBMongoContract;
+import mp3.me.contracts.DBMongoContract;
 import mp3.utils.thrift.initiation.TModelInitiation;
 import mp3.utils.thrift.models.TAlbum;
 import mp3.utils.thrift.models.TAlbumResult;

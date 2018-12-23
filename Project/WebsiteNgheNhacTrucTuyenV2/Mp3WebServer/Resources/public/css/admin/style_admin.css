@@ -1,0 +1,79 @@
+#screen_logs{
+    background: #9E9E9E;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#content_right_panel{
+    max-height: 1000px;
+    overflow-y: auto;
+}
+
+
+#status_connect_admin{
+    width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/*----------- table logs ------------------*/
+table tbody td{
+    word-wrap: break-word;
+}
+
+/*Color log*/
+
+.text_trace_color{
+    color: #00BCD4;
+}
+
+.text_debug_color{
+    color : #536DFE;
+}
+
+.text_info_color{
+    color : #4CAF50;
+}
+
+.text_warn_color{
+    color : #FFEA00;
+}
+
+.text_error_color{
+    color: #F44336;
+}
+
+.text_fatal_color{
+    color: #D32F2F;
+}
+
+.text_off_color{
+    color: #9C27B0;
+}
+
+
+/*----------- end table logs ------------------*/
+
+
+
+/*-------------------- requests monitor ------------------------*/
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 70vw;
+}
+
+.title-chart{
+    font-weight: bold;
+    color : #4CAF50;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/*-------------------- requests monitor ------------------------*/
