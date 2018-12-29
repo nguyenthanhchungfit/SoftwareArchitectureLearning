@@ -1,35 +1,57 @@
-[2018-12-03T18:06:52,404][INFO ][o.e.n.Node               ] [] initializing ...
-[2018-12-03T18:06:52,548][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [6.2gb], net total_space [11.2gb], types [ext4]
-[2018-12-03T18:06:52,549][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
-[2018-12-03T18:06:52,551][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
-[2018-12-03T18:06:52,555][INFO ][o.e.n.Node               ] version[6.2.4], pid[21821], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-139-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
-[2018-12-03T18:06:52,555][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.0H6DIYfY, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyen/3rd-server/elasticsearch-6.2.4/config]
-[2018-12-03T18:06:53,596][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
-[2018-12-03T18:06:53,596][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
-[2018-12-03T18:06:53,596][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
-[2018-12-03T18:06:53,597][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
-[2018-12-03T18:06:53,597][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
-[2018-12-03T18:06:53,597][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
-[2018-12-03T18:06:53,597][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
-[2018-12-03T18:06:53,598][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
-[2018-12-03T18:06:53,598][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
-[2018-12-03T18:06:53,598][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
-[2018-12-03T18:06:53,599][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
-[2018-12-03T18:06:53,600][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
-[2018-12-03T18:06:53,600][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
-[2018-12-03T18:06:53,600][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
-[2018-12-03T18:06:53,601][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
-[2018-12-03T18:06:57,609][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
-[2018-12-03T18:06:58,335][INFO ][o.e.n.Node               ] initialized
-[2018-12-03T18:06:58,336][INFO ][o.e.n.Node               ] [eecqQT7] starting ...
-[2018-12-03T18:06:58,551][INFO ][o.e.t.TransportService   ] [eecqQT7] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2018-12-03T18:06:58,565][WARN ][o.e.b.BootstrapChecks    ] [eecqQT7] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2018-12-03T18:07:01,680][INFO ][o.e.c.s.MasterService    ] [eecqQT7] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{lM0j1DceQN-dD44T42Wk7Q}{127.0.0.1}{127.0.0.1:9300}
-[2018-12-03T18:07:01,685][INFO ][o.e.c.s.ClusterApplierService] [eecqQT7] new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{lM0j1DceQN-dD44T42Wk7Q}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{lM0j1DceQN-dD44T42Wk7Q}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
-[2018-12-03T18:07:01,714][INFO ][o.e.h.n.Netty4HttpServerTransport] [eecqQT7] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2018-12-03T18:07:01,715][INFO ][o.e.n.Node               ] [eecqQT7] started
-[2018-12-03T18:07:01,807][INFO ][o.e.g.GatewayService     ] [eecqQT7] recovered [0] indices into cluster_state
-[2018-12-03T18:07:10,266][INFO ][o.e.n.Node               ] [eecqQT7] stopping ...
-[2018-12-03T18:07:10,296][INFO ][o.e.n.Node               ] [eecqQT7] stopped
-[2018-12-03T18:07:10,296][INFO ][o.e.n.Node               ] [eecqQT7] closing ...
-[2018-12-03T18:07:10,313][INFO ][o.e.n.Node               ] [eecqQT7] closed
+[2018-12-28T20:48:07,463][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-12-28T20:48:07,786][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [3.9gb], net total_space [11.2gb], types [ext4]
+[2018-12-28T20:48:07,786][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-12-28T20:48:07,787][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
+[2018-12-28T20:48:07,788][INFO ][o.e.n.Node               ] version[6.2.4], pid[8338], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-141-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2018-12-28T20:48:07,788][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.jeFnfOIs, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4/config]
+[2018-12-28T20:48:09,291][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
+[2018-12-28T20:48:09,291][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
+[2018-12-28T20:48:09,291][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
+[2018-12-28T20:48:09,292][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
+[2018-12-28T20:48:09,292][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
+[2018-12-28T20:48:09,292][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
+[2018-12-28T20:48:09,292][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
+[2018-12-28T20:48:09,293][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
+[2018-12-28T20:48:09,293][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
+[2018-12-28T20:48:09,293][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
+[2018-12-28T20:48:09,293][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
+[2018-12-28T20:48:09,294][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
+[2018-12-28T20:48:09,294][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
+[2018-12-28T20:48:09,294][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
+[2018-12-28T20:48:09,295][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
+[2018-12-28T20:48:13,812][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
+[2018-12-28T20:49:29,904][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-12-28T20:49:30,042][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [3.9gb], net total_space [11.2gb], types [ext4]
+[2018-12-28T20:49:30,042][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-12-28T20:49:30,043][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
+[2018-12-28T20:49:30,044][INFO ][o.e.n.Node               ] version[6.2.4], pid[8489], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-141-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2018-12-28T20:49:30,044][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.boLAyo0X, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4/config]
+[2018-12-28T20:49:30,773][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
+[2018-12-28T20:49:30,773][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
+[2018-12-28T20:49:30,774][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
+[2018-12-28T20:49:30,775][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
+[2018-12-28T20:49:30,775][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
+[2018-12-28T20:49:30,775][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
+[2018-12-28T20:49:30,775][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
+[2018-12-28T20:49:30,775][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
+[2018-12-28T20:49:30,776][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
+[2018-12-28T20:49:33,769][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
+[2018-12-28T20:49:34,464][INFO ][o.e.n.Node               ] initialized
+[2018-12-28T20:49:34,464][INFO ][o.e.n.Node               ] [eecqQT7] starting ...
+[2018-12-28T20:49:34,675][INFO ][o.e.t.TransportService   ] [eecqQT7] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-12-28T20:49:34,685][WARN ][o.e.b.BootstrapChecks    ] [eecqQT7] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-12-28T20:49:37,804][INFO ][o.e.c.s.MasterService    ] [eecqQT7] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{mLmMEcMpR7idsqRhKNHItg}{127.0.0.1}{127.0.0.1:9300}
+[2018-12-28T20:49:37,810][INFO ][o.e.c.s.ClusterApplierService] [eecqQT7] new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{mLmMEcMpR7idsqRhKNHItg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{mLmMEcMpR7idsqRhKNHItg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-12-28T20:49:37,907][INFO ][o.e.h.n.Netty4HttpServerTransport] [eecqQT7] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-12-28T20:49:37,907][INFO ][o.e.n.Node               ] [eecqQT7] started
+[2018-12-28T20:49:37,987][INFO ][o.e.g.GatewayService     ] [eecqQT7] recovered [0] indices into cluster_state
+[2018-12-28T23:42:07,340][INFO ][o.e.n.Node               ] [eecqQT7] stopping ...
+[2018-12-28T23:42:07,393][INFO ][o.e.n.Node               ] [eecqQT7] stopped
+[2018-12-28T23:42:07,393][INFO ][o.e.n.Node               ] [eecqQT7] closing ...
+[2018-12-28T23:42:07,402][INFO ][o.e.n.Node               ] [eecqQT7] closed

@@ -11,15 +11,15 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import org.apache.log4j.Logger;
-import mp3.me.servlets.AdminServlet;
-import mp3.me.servlets.HomeServlet;
-import mp3.me.servlets.LoginServlet;
-import mp3.me.servlets.LogoutServlet;
-import mp3.me.servlets.LyricServlet;
-import mp3.me.servlets.SearchServlet;
-import mp3.me.servlets.SingerServlet;
-import mp3.me.servlets.SongServlet;
-import mp3.me.servlets.StatisticServlet;
+import mp3.me.handlers.AdminHandler;
+import mp3.me.handlers.HomeHandler;
+import mp3.me.handlers.LoginHandler;
+import mp3.me.handlers.LogoutHandler;
+import mp3.me.handlers.LyricHandler;
+import mp3.me.handlers.SearchHandler;
+import mp3.me.handlers.SingerHandler;
+import mp3.me.handlers.SongHandler;
+import mp3.me.handlers.StatisticHandler;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.server.handler.HandlerList;
@@ -88,31 +88,32 @@ public class HServer {
             // Add something to serve the static files
             // It's named "default" to conform to servlet spec
             
-            ServletHolder myHome = new ServletHolder(new HomeServlet());
+            ServletHolder myHome = new ServletHolder(new HomeHandler());
             contextContent.addServlet(myHome, "/");
             
-            ServletHolder searchServlet = new ServletHolder(new SearchServlet());
+            ServletHolder searchServlet = new ServletHolder(new SearchHandler());
             contextContent.addServlet(searchServlet, "/search");
             
-            ServletHolder songServlet = new ServletHolder(new SongServlet());
+            ServletHolder songServlet = new ServletHolder(new SongHandler());
             contextContent.addServlet(songServlet, "/song");
             
-            ServletHolder singerServlet = new ServletHolder(new SingerServlet());
+            ServletHolder singerServlet = new ServletHolder(new SingerHandler());
             contextContent.addServlet(singerServlet, "/singer");
             
-            ServletHolder lyricsServlet = new ServletHolder(new LyricServlet());
+            ServletHolder lyricsServlet = new ServletHolder(new LyricHandler());
+            
             contextContent.addServlet(lyricsServlet, "/lyric");
             
-            ServletHolder loginServlet = new ServletHolder(new LoginServlet());
+            ServletHolder loginServlet = new ServletHolder(new LoginHandler());
             contextContent.addServlet(loginServlet, "/login");
             
-            ServletHolder logoutServlet = new ServletHolder(new LogoutServlet());
+            ServletHolder logoutServlet = new ServletHolder(new LogoutHandler());
             contextContent.addServlet(logoutServlet, "/logout");        
             
-            ServletHolder adminServlet = new ServletHolder(new AdminServlet());
+            ServletHolder adminServlet = new ServletHolder(new AdminHandler());
             contextContent.addServlet(adminServlet, "/admin");
             
-            ServletHolder statisticServlet = new ServletHolder(new StatisticServlet());
+            ServletHolder statisticServlet = new ServletHolder(new StatisticHandler());
             contextContent.addServlet(statisticServlet, "/statistic");
             
             ServletHolder staticHolder = new ServletHolder(new DefaultServlet());

@@ -14,4 +14,10 @@ public class ServerConfig {
     public static final int SERVER_PORT = 8000;
     public static final String SERVER_NAME = "Mp3 Http Server";
     
+    public static final String STOP_WATCH_SONG_SERVLET = "sw_song_servlet";
+    public static final String STOP_WATCH_SEARCH_SERVLET = "sw_search_servlet";
+    public static final String STOP_WATCH_LYRIC_SERVLET = "sw_lyric_servlet";
+    public static final String STOP_WATCH_SINGER_SERVLET = "sw_singer_servlet";
+    public static final String STOP_WATCH_LOGIN_SERVLET = "sw_login_servlet";
+    
 }

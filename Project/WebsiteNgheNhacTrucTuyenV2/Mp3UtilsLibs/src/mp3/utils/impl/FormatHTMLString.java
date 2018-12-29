@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mp3.me.servlets;
-
-import javax.servlet.http.HttpServlet;
+package mp3.utils.impl;
 
 /**
  *
- * @author chungnt
+ * @author cpu11165-local
  */
-public class LoginServlet extends HttpServlet{
+public class FormatHTMLString {
     
 }

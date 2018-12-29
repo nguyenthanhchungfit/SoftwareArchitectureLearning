@@ -5,6 +5,8 @@
  */
 package mp3.me.models;
 
+import hapax.TemplateLoader;
+import hapax.TemplateResourceLoader;
 import java.io.PrintWriter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +20,7 @@ import org.apache.log4j.Logger;
 public abstract class BaseModel {
 
     private static final Logger LOGGER = Logger.getLogger(BaseModel.class);
+    protected static final TemplateLoader templateLoader = TemplateResourceLoader.create("public/hapax/");
 
     public abstract void process(HttpServletRequest req, HttpServletResponse resp);
 

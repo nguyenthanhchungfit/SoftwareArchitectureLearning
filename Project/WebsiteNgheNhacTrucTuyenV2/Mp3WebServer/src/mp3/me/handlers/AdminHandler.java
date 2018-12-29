@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mp3.me.servlets;
+package mp3.me.handlers;
 
 import hapax.Template;
 import hapax.TemplateDictionary;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author chungnt
  */
-public class AdminServlet extends HttpServlet {
+public class AdminHandler extends HttpServlet {
 //    private static final String HOST_DATA_SERVER = DataServerContract.HOST_SERVER;
 //    private static final int PORT_DATA_SERVER = DataServerContract.PORT;
 //

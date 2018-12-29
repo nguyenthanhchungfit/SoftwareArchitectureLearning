@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mp3.me.servlets;
-
-import javax.servlet.http.HttpServlet;
+package mp3.utils.cache.clients;
 
 /**
  *
  * @author chungnt
  */
-public class HomeServlet extends HttpServlet{
-    
+public class TestCacheClient {
+    public static void main(String[] args) {
+    }
 }
