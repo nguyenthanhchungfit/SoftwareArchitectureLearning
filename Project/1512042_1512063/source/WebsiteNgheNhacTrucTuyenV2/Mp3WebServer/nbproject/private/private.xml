@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/handlers/SongHandler.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/handlers/HomeHandler.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/models/SongModel.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/models/SearchModel.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/app/Mp3MainApp.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/models/LyricModel.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/handlers/LyricHandler.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/models/HomeModel.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/contracts/ServerConfig.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/handlers/SingerHandler.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/handlers/SearchHandler.java</file>
+            <file>file:/home/chungnt/Documents/thanhchung/Year%204/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/Mp3WebServer/src/mp3/me/models/SingerModel.java</file>
+        </group>
+    </open-files>
+</project-private>

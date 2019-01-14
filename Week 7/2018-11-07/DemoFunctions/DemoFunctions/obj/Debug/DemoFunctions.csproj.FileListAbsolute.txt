@@ -1,0 +1,10 @@
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoFunctions\DemoFunctions\bin\Debug\DemoFunctions.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoFunctions\DemoFunctions\bin\Debug\DemoFunctions.pdb
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.csprojResolveAssemblyReference.cache
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.exe
+c:\users\tmtri\documents\visual studio 2015\Projects\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.pdb
+c:\Users\tmtri\Documents\Visual Studio 2015\Projects\2018-11-07\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.exe
+c:\Users\tmtri\Documents\Visual Studio 2015\Projects\2018-11-07\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.pdb
+c:\Users\tmtri\Documents\Visual Studio 2015\Projects\2018-11-07\DemoFunctions\DemoFunctions\bin\Debug\DemoFunctions.exe
+c:\Users\tmtri\Documents\Visual Studio 2015\Projects\2018-11-07\DemoFunctions\DemoFunctions\bin\Debug\DemoFunctions.pdb
+c:\Users\tmtri\Documents\Visual Studio 2015\Projects\2018-11-07\DemoFunctions\DemoFunctions\obj\Debug\DemoFunctions.csprojResolveAssemblyReference.cache

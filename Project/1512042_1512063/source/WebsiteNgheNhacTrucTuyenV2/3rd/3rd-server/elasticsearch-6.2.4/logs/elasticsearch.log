@@ -1,0 +1,162 @@
+[2019-01-10T01:03:29,205][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-01-10T01:03:29,717][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [3.3gb], net total_space [11.2gb], types [ext4]
+[2019-01-10T01:03:29,718][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-01-10T01:03:29,720][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
+[2019-01-10T01:03:29,721][INFO ][o.e.n.Node               ] version[6.2.4], pid[21710], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-141-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-10T01:03:29,721][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.OAsbm3Ej, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4/config]
+[2019-01-10T01:03:31,943][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
+[2019-01-10T01:03:31,943][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
+[2019-01-10T01:03:31,943][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
+[2019-01-10T01:03:31,944][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
+[2019-01-10T01:03:31,944][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
+[2019-01-10T01:03:31,945][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
+[2019-01-10T01:03:31,946][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
+[2019-01-10T01:03:31,948][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
+[2019-01-10T01:03:31,948][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
+[2019-01-10T01:03:31,949][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
+[2019-01-10T01:03:39,289][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
+[2019-01-10T01:03:40,130][INFO ][o.e.n.Node               ] initialized
+[2019-01-10T01:03:40,130][INFO ][o.e.n.Node               ] [eecqQT7] starting ...
+[2019-01-10T01:03:40,491][INFO ][o.e.t.TransportService   ] [eecqQT7] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-10T01:03:40,508][WARN ][o.e.b.BootstrapChecks    ] [eecqQT7] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-01-10T01:03:43,596][INFO ][o.e.c.s.MasterService    ] [eecqQT7] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{ac69kwopR0GuXeRf-tUuig}{127.0.0.1}{127.0.0.1:9300}
+[2019-01-10T01:03:43,603][INFO ][o.e.c.s.ClusterApplierService] [eecqQT7] new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{ac69kwopR0GuXeRf-tUuig}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{ac69kwopR0GuXeRf-tUuig}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-10T01:03:43,812][INFO ][o.e.h.n.Netty4HttpServerTransport] [eecqQT7] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-10T01:03:43,812][INFO ][o.e.n.Node               ] [eecqQT7] started
+[2019-01-10T01:03:43,868][INFO ][o.e.g.GatewayService     ] [eecqQT7] recovered [0] indices into cluster_state
+[2019-01-10T01:07:53,366][INFO ][o.e.c.m.MetaDataCreateIndexService] [eecqQT7] [appmp3] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-01-10T01:07:57,253][INFO ][o.e.c.m.MetaDataMappingService] [eecqQT7] [appmp3/KVTcuCiNQZOrJZwKJEuMBA] create_mapping [songs]
+[2019-01-10T01:16:12,897][INFO ][o.e.n.Node               ] [eecqQT7] stopping ...
+[2019-01-10T01:16:13,986][INFO ][o.e.n.Node               ] [eecqQT7] stopped
+[2019-01-10T01:16:14,069][INFO ][o.e.n.Node               ] [eecqQT7] closing ...
+[2019-01-10T01:16:14,173][DEBUG][o.e.a.a.c.n.s.TransportNodesStatsAction] [eecqQT7] failed to execute on node [eecqQT7_QQaMYXso8VAhLQ]
+org.elasticsearch.transport.SendRequestTransportException: [eecqQT7][127.0.0.1:9300][cluster:monitor/nodes/stats[n]]
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:608) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:518) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:506) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.start(TransportNodesAction.java:197) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.doExecute(TransportNodesAction.java:89) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.doExecute(TransportNodesAction.java:52) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:167) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:139) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:81) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:83) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:72) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:405) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.execute(AbstractClient.java:712) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.nodesStats(AbstractClient.java:808) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.updateNodeStats(InternalClusterInfoService.java:254) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.refresh(InternalClusterInfoService.java:290) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.maybeRefresh(InternalClusterInfoService.java:275) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.access$500(InternalClusterInfoService.java:68) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService$SubmitReschedulingClusterInfoUpdatedJob.lambda$run$0(InternalClusterInfoService.java:222) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:573) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.elasticsearch.transport.TransportException: TransportService is closed stopped can't send request
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:592) ~[elasticsearch-6.2.4.jar:6.2.4]
+	... 22 more
+[2019-01-10T01:16:14,173][DEBUG][o.e.a.a.i.s.TransportIndicesStatsAction] [eecqQT7] failed to execute [indices:monitor/stats] on node [eecqQT7_QQaMYXso8VAhLQ]
+org.elasticsearch.transport.SendRequestTransportException: [eecqQT7][127.0.0.1:9300][indices:monitor/stats[n]]
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:608) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:518) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:493) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.sendNodeRequest(TransportBroadcastByNodeAction.java:322) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.start(TransportBroadcastByNodeAction.java:311) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:234) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:79) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:167) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:139) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:81) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:83) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:72) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:405) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.execute(AbstractClient.java:1253) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.stats(AbstractClient.java:1574) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.updateIndicesStats(InternalClusterInfoService.java:268) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.refresh(InternalClusterInfoService.java:319) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.maybeRefresh(InternalClusterInfoService.java:275) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService.access$500(InternalClusterInfoService.java:68) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.cluster.InternalClusterInfoService$SubmitReschedulingClusterInfoUpdatedJob.lambda$run$0(InternalClusterInfoService.java:222) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:573) ~[elasticsearch-6.2.4.jar:6.2.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.elasticsearch.transport.TransportException: TransportService is closed stopped can't send request
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:592) ~[elasticsearch-6.2.4.jar:6.2.4]
+	... 23 more
+[2019-01-10T01:16:14,552][INFO ][o.e.n.Node               ] [eecqQT7] closed
+[2019-01-10T13:39:07,693][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-01-10T13:39:08,094][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [3.1gb], net total_space [11.2gb], types [ext4]
+[2019-01-10T13:39:08,095][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-01-10T13:39:08,139][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
+[2019-01-10T13:39:08,140][INFO ][o.e.n.Node               ] version[6.2.4], pid[19048], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-141-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-10T13:39:08,141][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.tALXS5Qv, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4/config]
+[2019-01-10T13:39:10,007][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
+[2019-01-10T13:39:10,008][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
+[2019-01-10T13:39:10,008][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
+[2019-01-10T13:39:10,009][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
+[2019-01-10T13:39:10,009][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
+[2019-01-10T13:39:10,009][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
+[2019-01-10T13:39:10,009][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
+[2019-01-10T13:39:10,010][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
+[2019-01-10T13:39:10,010][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
+[2019-01-10T13:39:10,010][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
+[2019-01-10T13:39:10,011][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
+[2019-01-10T13:39:10,011][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
+[2019-01-10T13:39:10,013][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
+[2019-01-10T13:39:10,014][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
+[2019-01-10T13:39:10,014][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
+[2019-01-10T13:39:15,940][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
+[2019-01-10T13:39:16,693][INFO ][o.e.n.Node               ] initialized
+[2019-01-10T13:39:16,694][INFO ][o.e.n.Node               ] [eecqQT7] starting ...
+[2019-01-10T13:39:17,011][INFO ][o.e.t.TransportService   ] [eecqQT7] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-10T13:39:17,033][WARN ][o.e.b.BootstrapChecks    ] [eecqQT7] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-01-10T13:39:20,109][INFO ][o.e.c.s.MasterService    ] [eecqQT7] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{fmN78pzZQiKhZjHTiryEuA}{127.0.0.1}{127.0.0.1:9300}
+[2019-01-10T13:39:20,117][INFO ][o.e.c.s.ClusterApplierService] [eecqQT7] new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{fmN78pzZQiKhZjHTiryEuA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{fmN78pzZQiKhZjHTiryEuA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-10T13:39:20,228][INFO ][o.e.h.n.Netty4HttpServerTransport] [eecqQT7] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-10T13:39:20,231][INFO ][o.e.n.Node               ] [eecqQT7] started
+[2019-01-10T13:39:20,910][INFO ][o.e.g.GatewayService     ] [eecqQT7] recovered [1] indices into cluster_state
+[2019-01-10T13:39:23,585][INFO ][o.e.c.r.a.AllocationService] [eecqQT7] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[appmp3][2]] ...]).
+[2019-01-10T17:54:07,009][INFO ][o.e.n.Node               ] [eecqQT7] stopping ...
+[2019-01-10T17:54:07,197][INFO ][o.e.n.Node               ] [eecqQT7] stopped
+[2019-01-10T17:54:07,197][INFO ][o.e.n.Node               ] [eecqQT7] closing ...
+[2019-01-10T17:54:07,391][INFO ][o.e.n.Node               ] [eecqQT7] closed
+[2019-01-10T21:03:24,954][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-01-10T21:03:25,216][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] using [1] data paths, mounts [[/home (/dev/sda9)]], net usable_space [3gb], net total_space [11.2gb], types [ext4]
+[2019-01-10T21:03:25,216][INFO ][o.e.e.NodeEnvironment    ] [eecqQT7] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-01-10T21:03:25,337][INFO ][o.e.n.Node               ] node name [eecqQT7] derived from node ID [eecqQT7_QQaMYXso8VAhLQ]; set [node.name] to override
+[2019-01-10T21:03:25,338][INFO ][o.e.n.Node               ] version[6.2.4], pid[8274], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.4.0-141-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-10T21:03:25,338][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.0bgIcjHL, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4, -Des.path.conf=/home/chungnt/Documents/thanhchung/Year 4/SoftwareArchitectureLearning/Project/WebsiteNgheNhacTrucTuyenV2/3rd/3rd-server/elasticsearch-6.2.4/config]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [aggs-matrix-stats]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [analysis-common]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [ingest-common]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-expression]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-mustache]
+[2019-01-10T21:03:26,957][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [lang-painless]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [mapper-extras]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [parent-join]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [percolator]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [rank-eval]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [reindex]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [repository-url]
+[2019-01-10T21:03:26,958][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [transport-netty4]
+[2019-01-10T21:03:26,959][INFO ][o.e.p.PluginsService     ] [eecqQT7] loaded module [tribe]
+[2019-01-10T21:03:26,959][INFO ][o.e.p.PluginsService     ] [eecqQT7] no plugins loaded
+[2019-01-10T21:03:31,389][INFO ][o.e.d.DiscoveryModule    ] [eecqQT7] using discovery type [zen]
+[2019-01-10T21:03:31,955][INFO ][o.e.n.Node               ] initialized
+[2019-01-10T21:03:31,955][INFO ][o.e.n.Node               ] [eecqQT7] starting ...
+[2019-01-10T21:03:32,223][INFO ][o.e.t.TransportService   ] [eecqQT7] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-10T21:03:32,239][WARN ][o.e.b.BootstrapChecks    ] [eecqQT7] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-01-10T21:03:35,319][INFO ][o.e.c.s.MasterService    ] [eecqQT7] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{2OomooHbRHerywvZz7qGFA}{127.0.0.1}{127.0.0.1:9300}
+[2019-01-10T21:03:35,324][INFO ][o.e.c.s.ClusterApplierService] [eecqQT7] new_master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{2OomooHbRHerywvZz7qGFA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {eecqQT7}{eecqQT7_QQaMYXso8VAhLQ}{2OomooHbRHerywvZz7qGFA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-10T21:03:35,396][INFO ][o.e.h.n.Netty4HttpServerTransport] [eecqQT7] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-10T21:03:35,396][INFO ][o.e.n.Node               ] [eecqQT7] started
+[2019-01-10T21:03:36,076][INFO ][o.e.g.GatewayService     ] [eecqQT7] recovered [1] indices into cluster_state
+[2019-01-10T21:03:37,583][INFO ][o.e.c.r.a.AllocationService] [eecqQT7] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[appmp3][3]] ...]).

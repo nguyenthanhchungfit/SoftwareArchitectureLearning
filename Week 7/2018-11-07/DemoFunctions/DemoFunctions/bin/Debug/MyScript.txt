@@ -1,0 +1,79 @@
+﻿1
+Notepad
+0
+0
+4
+Nhap
+0
+1 v0 bienA
+Nhap
+0
+1 v0 bienB
+Tong
+2 bienA v0 bienB v1
+1 v0 kq
+Xuat
+1 kq v0
+0
+
+
+
+
+
+
+6
+F1
+0
+1 v0 x
+F1
+0
+1 v0 y
+F1
+0
+1 v0 z
+F4
+2 x v0 y v1
+1 v0 maxxy
+F4
+2 maxxy v0 z v1
+1 v0 kq
+F2
+1 kq v0
+0
+
+
+
+
+3
+F1
+0
+1 v0 a
+F3
+2 a v0 a v1
+1 v0 kq
+F2
+1 kq v0
+0
+
+
+
+
+
+
+
+
+
+
+4
+F1
+0
+1 v0 a
+F1
+0
+1 v0 b
+F3
+2 a v0 b v1
+1 v0 c
+F2
+1 c v0
+0
